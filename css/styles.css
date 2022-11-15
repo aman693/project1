@@ -1,0 +1,196 @@
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+/* titel section */
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+  padding-bottom: 50px;
+  text-align: left;
+}
+#title .container-fluid{
+  padding: 3% 15% 7%;
+}
+/* container section */
+.container-fluid{
+  padding: 7% 15%;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: "Montserrat-Bold";
+}
+
+.big-heading{
+  font: "Montserrat-Black";
+  size:6rem;
+  line-height: 1.5;
+  font-weight:bolder;
+
+}
+/* navgaion  */
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+
+
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-family: "Montserrat-light";
+  font-size: 1.2rem;
+}
+/* download-button */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* image */
+.image{
+  width: 20%;
+  transform: rotate(15deg);
+  position: absolute;
+  padding-bottom: 15px;
+  margin-left: 50px;
+}
+
+/* feature selection */
+#features{
+
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box{
+
+  padding: 6%;
+}
+.feature-title{
+  font-size: 1.5rem;
+}
+
+
+p{
+  color: grey;
+}
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+/* testimonial selection */
+
+#testimonials{
+
+
+  background-color: #ff4c68;
+  color: white;
+}
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image{
+  border-radius: 100%;
+  margin: 10px;
+  width: 15%;
+}
+
+/* press */
+#press{
+
+  padding-bottom: 5%;
+  background-color: #ff4c68;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item{
+    padding: 8% 10%;
+}
+
+/* pricing selection */
+#pricing{
+  padding: 100px;
+
+
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+
+.card-header{
+  background-color: #ff4c68;
+
+  padding: 2% 1% 2%;
+}
+
+.pricing-header{
+  color: white;
+  font-family: "Montserrat bold";
+}
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.section-text{
+  font-size: 3rem
+  line-height: 1.5;
+}
+
+
+
+@media (max-width:700px) {
+  #title{
+    text-align: center;
+  }
+  .image{
+    position: static;
+    transform: rotate(0);
+    width: 50%;
+    padding-top: 40px
+  }
+  .testimonials{
+    font-size: 0.5rem;
+  }
+  .big-heading{
+    font-size: 2.5rem;
+  }
+  .testimonial-text{
+    font-size: 1rem;
+  }
+
+}
+
+/* call to action */
+
+#cta{
+  background-color: #ff4c68;
+}
+.font{
+
+  font-family: "Montserrat-Black";
+  color: #fff;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+/* footer */
+
+.social{
+  margin: 20px 10px;
+}
